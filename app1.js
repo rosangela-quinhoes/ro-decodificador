@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
       // Esconder o textarea de output inicialmente
 document.getElementById("output-texto").classList.add("hidden");
 document.getElementById("botao-copiar").classList.add("hidden");
+document.getElementById("inputText").value = '';
 });
   
 let textArea = document.querySelector(".container__input");

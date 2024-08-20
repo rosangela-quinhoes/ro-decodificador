@@ -79,7 +79,8 @@ input {
     text-align: left;
     color: var(--cor-primaria);
     font-size: 1.5rem;
-    font-family: var(--fonte-secundaria);    
+    font-family: var(--fonte-secundaria); 
+    outline: none;   
 }
 
 .container__conteudo__alerta {
@@ -106,7 +107,8 @@ input {
     font-size: 15px;
     font-weight: 300;
     font-family: var(--fonte-secundaria);
-    padding: 21.5px 0;    
+    padding: 21.5px 0;
+    cursor: pointer;   
 }
 
 .container__botao2 {
@@ -118,7 +120,8 @@ input {
     font-size: 15px;
     font-weight: 100;
     font-family: var(--fonte-secundaria);
-    padding: 21.5px 0;    
+    padding: 21.5px 0;  
+    cursor: pointer;  
 }
 
 .container__out {
