@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+    <body>
+        <header class= "cabecalho">
+            <nav class= "cabecalho__menu">
+                <img src="frame 6.png" alt="logo">        
+            </nav>
+        </header>
+        <main class= "container">
+            <section class="container__conteudo">
+                               
+                <div class="container__in">
+                    
+                    <textarea id="inputText"
+                      class="container__input"                                
+                      cols="30" rows="10" 
+                      placeholder="Digite seu texto">  
+                                          
+                    </textarea>                              
+               </div>  
+              
+                
+                <div class="container__botao__img">
+                    <img src="frame 1.png" alt="alerta">
+                </div>
+
+                <div class="container__botoes">
+                    <button class= "container__botao"
+                        onclick="encryptText()">Criptografar</button>                
+                  
+                    <button class="container__botao2" 
+                        onclick="desencryptText()" 
+                        >Descriptografar</button>                            
+                </div> 
+            </section>
+    
+            <div class="container__out">
+                <div class="copiar-texto">
+                    <textarea id="output-texto" 
+                        class="texto-direita" readonly></textarea>
+                    <button class="botao-copiar" id="botao-copiar"
+                        onclick="copiartexto()">Copiar</button>
+                </div>        
+            </div>
+            <div class= "container__imagem" id="container__imagem"> 
+                <img src="high quality products 1 1.svg" alt="desenvolvedora">
+                <img src="Frame 5.png" alt="texto1">
+            </div> 
+            
+    </main>
+    
+
+        <footer class="rodape">
+            <p>Desenvolvido por Rosangela Quinhões Ramos / 2024.</p>
+        </footer>
+        <script src="app1.js"></script>  
+        
+    </body>
+   </html>
